@@ -1,0 +1,70 @@
+package pac.remove;
+public class LinkedList {
+	private Node head;
+	private Node tail;
+	private int length;
+	
+	public LinkedList(int value)
+	{
+	 Node newNode=new Node( value);
+	 head=newNode;
+	 tail=newNode;
+	 length=1;
+	}
+	
+	class Node
+	{
+		int Value;
+		Node next;
+		Node(int value)
+		{
+			this.Value=value;
+		}
+	}
+	
+	  
+    void append( int Value)
+    {
+    	Node newNode=new Node(Value);
+    	if(length==0)
+    	{
+    		head=newNode;
+    		tail=newNode;
+    	}
+    	else
+    	{
+    	tail.next=newNode;
+    	newNode=tail;
+    			
+    	}
+    	length++;
+    }
+    
+	public Node remodvelast()
+	{	if(length==0)
+	  {
+		return null;
+	  }
+		Node temp=head;
+		Node slow=head;
+		
+		while(temp!=null)
+		{
+			slow=temp;
+			temp=temp.next;
+		}
+		tail=slow;
+		tail.next=null;
+		length--;
+		if(length==0)
+		{
+			head=null;
+			tail=null;
+			
+		}
+		
+		return temp;
+	
+	}
+	
+}

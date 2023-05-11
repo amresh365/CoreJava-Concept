@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\91959\OneDrive\Desktop\Java projects\DATA STRUCTURE\SinglyLinkList\.metadata\.plugins\org.eclipse.jdt.core
+2749756645.index
+2594758276.index
+198301716.index
+3959137331.index
+2271881108.index
+968454146.index

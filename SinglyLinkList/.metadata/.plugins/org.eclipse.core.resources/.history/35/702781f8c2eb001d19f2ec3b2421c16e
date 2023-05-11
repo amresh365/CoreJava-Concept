@@ -1,0 +1,20 @@
+package pac.remove;
+
+public class Main {
+
+	public static void main(String[] args) {
+		LinkedList mylinklist=new LinkedList(4);
+		mylinklist.append(7);
+		mylinklist.append(4);
+		mylinklist.append(1);
+		mylinklist.append(3);
+		;
+		System.out.println(mylinklist.remodvelast().Value);
+		
+		System.out.println(mylinklist.remodvelast().Value);
+		
+		System.out.println(mylinklist.remodvelast());
+		
+	}
+
+}

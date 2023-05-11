@@ -1,0 +1,15 @@
+package pac.insert;
+
+public class Main {
+
+	public static void main(String[] args) {
+		LinkedList mylist=new LinkedList(3);
+		mylist.append(0);
+		mylist.append(7);
+		mylist.append(9);
+		//System.out.println(mylist.insert(2, 6));
+		mylist.printList();
+
+	}
+
+}

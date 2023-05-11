@@ -1,0 +1,14 @@
+package pac.append;
+
+public class Main {
+
+	public static void main(String[] args) {
+		LinkedList linklist=new LinkedList(4);
+		linklist.append(8);
+		linklist.append(9);
+		linklist.append(11);
+		linklist.printlist();
+
+	}
+
+}
